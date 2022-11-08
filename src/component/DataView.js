@@ -2,7 +2,6 @@
 import React from 'react'; 
 import styles from '../css/DateView.module.css'; 
 
-
 function DateView(){
 
     
@@ -14,13 +13,13 @@ function DateView(){
         week : date.getDay()
     }
 
-    const weekChangeText = [ "Sunday 🖖" ,"Monday 💪😀" ,"Tuesday 😜" ,"Wednesday 😌☕️" ,"Thursday 🤗" ,"Friday 🍻" ,"Saturday 😴" ]
+    const weekChangeText = [ "Sunday" ,"Monday" ,"Tuesday" ,"Wednesday" ,"Thursday" ,"Friday" ,"Saturday" ]
 
 
     return (
         <div>
             <h4 className={styles.date}>
-            {dateArray.year}. {dateArray.month}. {dateArray.day} 
+                {dateArray.year}. {dateArray.month}. {dateArray.day}.
             </h4>
             <h1 className={styles.week}>Have a nice {weekChangeText[dateArray.week]}</h1>
         </div>

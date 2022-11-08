@@ -13,7 +13,7 @@ ul,ol{ list-style: none; }
 input:focus, input:active, input:active:focus{ outline: none; }
 
 .App{ 
-    background-color:#acff98; color:rgb(58, 58, 58); 
+    background-color:#ffffff; color:rgb(93, 49, 255); 
     width:100%; min-height:100vh; 
     display:flex; justify-content: center; 
     padding:40px 15px;

@@ -8,7 +8,7 @@ function Create({onSubmit , item , onChange  }){
         <input 
           className = {styles.f_add}
           type = "text" 
-          placeholder = "Add item..." 
+          placeholder = "Please enter a new todo!" 
           value = {item}
           onChange = {onChange}
         />
